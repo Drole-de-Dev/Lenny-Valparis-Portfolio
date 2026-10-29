@@ -1,17 +1,21 @@
 # Nom du projet 
 
+Portfolio
+
 ## Description :
 Ceci est une description 
 
 
 ### Équipe : 
-- 
+- Lenny Valparis
 
 ### Technologie utilisée (language, algorithme...) :
-- 
+- HTML
+- CSS
+- Live Server
 
 ### Résultats :
-- 
+- Un portfolio fonctionnel
 
 ## Post-Mortem : 
 
@@ -25,4 +29,4 @@ Ceci est une description
 ### Ce qu'on a appris : 
 
 ### Possibilité d'évolution :
-
+- En faire un vaisseau spacial
