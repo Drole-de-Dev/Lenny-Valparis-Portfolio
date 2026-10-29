@@ -3,7 +3,7 @@
 Portfolio
 
 ## Description :
-Ceci est une description 
+C'est un Portfolio pour montrer mes compétences et mettre mes projets en avant
 
 
 ### Équipe : 
