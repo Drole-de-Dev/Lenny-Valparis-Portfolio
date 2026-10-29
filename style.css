@@ -117,15 +117,9 @@ cursor: pointer;
 
 /*Synthwave*/
 
-.test1 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .body{
   height: 100vh;
-  overflow: hidden;
+  overflow-y: auto;
   background: linear-gradient(#0b0120,#2a0b4e 38%,
   #b3127a 56%,#ff6a3d 60%,#0b0120 60%);
 }
@@ -172,9 +166,47 @@ cursor: pointer;
   to {background-position: 0 36px,0 0, 0 0;}
 }
 
+.premier_plan{
+  position: relative;
+  z-index: 100;
+}
+
 .h1{
   color: transparent;
   font: italic 900 9vmin 'Orbitron', sans-serif;
+  text-align: center;
+  position: relative;
+  margin-top: 12vh;
+  background: linear-gradient(#fff 35%, #2de2e6 50%,#f222ff 50%,#ffd319 90%);
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 0 14px #f222ff);
+}
+
+.h2{
+  color: transparent;
+  font: italic 900 7vmin 'Orbitron', sans-serif;
+  text-align: center;
+  position: relative;
+  margin-top: 4vh;
+  background: linear-gradient(#fff 35%, #2de2e6 50%,#f222ff 50%,#ffd319 90%);
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 0 14px #f222ff);
+}
+
+.h3{
+  color: transparent;
+  font: italic 900 3vmin 'Orbitron', sans-serif;
+  text-align: center;
+  position: relative;
+  margin-top: 12vh;
+  background: linear-gradient(#fff 35%, #2de2e6 50%,#f222ff 50%,#ffd319 90%);
+  -webkit-background-clip: text;
+  filter: drop-shadow(0 0 14px #f222ff);
+}
+
+.p{
+    color: transparent;
+  font: italic 900 1vmin 'Orbitron', sans-serif;
   text-align: center;
   position: relative;
   margin-top: 12vh;
