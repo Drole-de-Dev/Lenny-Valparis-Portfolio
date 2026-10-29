@@ -6,27 +6,34 @@
   <title>Lenny Valparis Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1 class="title center">Lenny Valparis</h1>
-  <div class="info">
-  <h2 class="subtitle"><a href="informations.html" class="hover-effect" target="_blank">Informations</a></h2>
+<body class="body">
+   <div class="stars"></div>
+    <div class="sun"></div>
+    <div class="mountains"></div>
+    <div class="grid"></div>
+    <h1 class="h1">Lenny Valparis</h1>
+    <script src="script.js"></script>
+  
+  <div>
+    <button class="btn hover-effect" onclick="window.location.href='informations.html','_blank'">Informations</button>
+    <button class="btn hover-effect" onclick="window.location.href='skills.html','_blank'">Compétences</button>
+    <button class="btn hover-effect" onclick="window.location.href='experience.html','_blank'">Expériences</button>
+    <button class="btn hover-effect" onclick="window.location.href='synthwave.html','_blank'">Synthwave</button>
   </div>
-  <div class="competences">
-  <h2 class="subtitle"><a href="skills.html" class="hover-effect" target="_blank">Compétences</a></h2>
-    <ul>
-      <li>Langages de programmation: C++, HTML, CSS</li>
-    </ul>
-    </div>
-    <div class="projects">
-  <h2 class="subtitle">Projets</h2>
+
+  <div class="projects">
+  <h2 class="subtitle h1">Projets</h2>
     <ul>
       <li class="project-link LeftProject"><a href="project1.html" class="hover-effect" target="_blank">Shoot'em up</a></li>
       <br>
       <li class="project-link RightProject"><a href="project2.html" class="hover-effect" target="_blank">Portfolio</a></li>
+      <br>
+      <li class="project-link LeftProject"><a href="project3.html" class="hover-effect" target="_blank">Pathfinding</a></li> 
     </ul>
   </div>
-  <div class="contact">
-  <h2 class="subtitle">Contact</h2>
+
+  <h2 class="subtitle center">Contact</h2>
+  <div class="contact row_Center_Contact" >
     <a class="hover-effect" href="mailto:lvalparis@gaming.tech" target="_blank">Email</a>
     <br>
     <a class="hover-effect" href="https://www.linkedin.com/in/lenny-valparis-7824a8389/" target="_blank">LinkedIn</a>
@@ -35,6 +42,7 @@
     <br>
     <a class="hover-effect" href="cv.pdf" target="_blank">CV</a>
   </div>
+
   <div>
     <footer class="center">
       <p>&copy; 2026 Lenny Valparis. Tous droits réservés.</p>
