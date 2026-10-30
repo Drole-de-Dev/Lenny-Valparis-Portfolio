@@ -120,6 +120,7 @@ cursor: pointer;
 .body{
   height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
   background: linear-gradient(#0b0120,#2a0b4e 38%,
   #b3127a 56%,#ff6a3d 60%,#0b0120 60%);
 }
